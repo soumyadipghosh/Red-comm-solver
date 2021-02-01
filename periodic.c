@@ -21,7 +21,7 @@ Modifications - Soumyadip Ghosh
 #define MASTER 0 /* taskid of first process */
 #define TOL 1e-5 /* tolerance for convergence */
 
-void inidat();
+void inidat(int, int, double *, int, int);
 void update(int, int, int, int, int, int, long int, double, double *, double *,
             double *, double *);
 double calc_residual_sum(int, int, int, double *);
